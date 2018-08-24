@@ -3,23 +3,130 @@
 }
 
 .App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
+  height: 300px;
 }
 
 .App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
+  background-color: #2c3444;
+  padding: 150px 20px;
   color: white;
+  background-attachment: fixed;
+}
+
+.img-fluid {
+  width: auto;
+  max-height: 300px;
 }
 
 .App-title {
-  font-size: 1.5em;
+  font-size: 40px;
+  color: #2fbcfd;
+  letter-spacing: 2px;
+}
+
+.App-title-2 {
+  font-size: 20px;
+  color: #2fbcfd;
+  letter-spacing: 6px;
 }
 
 .App-intro {
   font-size: large;
+}
+
+.bady-portifolio{
+  background-color: black;
+  margin-top: -55px;
+}
+
+.skill-name {
+  font-size: 1em;
+  color: white;
+  padding: 5px;
+}
+
+.rating {
+  position: relative;
+}
+
+@media only screen and (min-width: 40em){
+  .skill-box {
+    height: 32px;
+  }
+}
+
+.skill-box, .process h3 {
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  border-radius: 3px;
+}
+
+.skill-box {
+  border: 2px solid #0071BD;
+  height: 28px;
+  width: 100%;
+  position: absolute;
+  top: 3px;
+}
+
+.launch.expert1 {
+  width: 100%;
+}
+
+
+.launch.expert100 {
+  width: 100%;
+}
+
+.launch.expert90 {
+  width: 90%;
+}
+
+.launch.expert80 {
+  width: 80%;
+}
+
+.launch.expert85 {
+  width: 85%;
+}
+
+.launch.expert60 {
+  width: 60%;
+}
+
+.launch.expert50 {
+  width: 50%;
+}
+
+.launch.expert25 {
+  width: 25%;
+}
+
+
+.scribble {
+  height: 34px;
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+  background-position: right top;
+  width: 0;
+  transition: all 2000ms ease;
+}
+
+.bg-skill{
+  background-image:url("http://gregor.smallgreendog.com/images/scribble-green.png")
+}
+
+.h1-title {
+  /*
+  color: #2fbcfd;
+*/
+
+  font-size: 40px;
+  letter-spacing: 6px;
+  color: #3d9991;
+  text-decoration: none;
+  padding: 50px 0 0 0;
 }
 
 @keyframes App-logo-spin {
