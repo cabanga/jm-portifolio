@@ -1,6 +1,9 @@
 import React, { Component } from 'react';
 import favicon from './assets/imagens/favicon.png';
 import a1 from './assets/imagens/a1.jpg';
+import meucondo from './assets/imagens/meucondo.png';
+import telcosms from './assets/imagens/telcosms.png';
+import facom from './assets/imagens/facom.png';
 
 import './App.css';
 
@@ -21,52 +24,50 @@ class App extends Component {
             <h1 className="h1-title">Portifolio</h1>
           </div>
 
-          <div className="row">
-            <div className="col s12 m4">
-              <div className="icon-block">
-                <img src={a1} className="img-fluid" alt="logo" />
+          <div className="container">
+            <div className="row">
+
+
+              <div className="col s12 m4 no-padding">
+                <div className="icon-block">
+                  <a href="https://meucondo.co.ao/" target="_blank" rel="noopener noreferrer">
+                    <figure>
+                      <img src={meucondo} className="responsive-img" alt="logo" />
+                    </figure>
+                  </a>
+                </div>
               </div>
-            </div>
 
-            <div className="col s12 m4">
-              <div className="icon-block">
-                <img src={a1} className="img-fluid" alt="logo" />
+              <div className="col s12 m4 no-padding">
+                <div className="icon-block">
+                  <a href="https://telcosms.co.ao/" target="_blank" rel="noopener noreferrer">
+                    <figure>
+                      <img src={telcosms} className="responsive-img" alt="logo" />
+                    </figure>
+                  </a>
+                </div>
               </div>
-            </div>
 
-            <div className="col s12 m4">
-              <div className="icon-block">
-                <img src={a1} className="img-fluid" alt="logo" />
+              <div className="col s12 m4 no-padding">
+                <div className="icon-block">
+                  <a href="https://fa-com.herokuapp.com/" target="_blank" rel="noopener noreferrer">
+                    <figure>
+                      <img src={facom} className="responsive-img" alt="logo" />
+                    </figure>
+                  </a>
+                </div>
               </div>
+
+
+
+
+
             </div>
-
-
-            <div className="col s12 m4">
-              <div className="icon-block">
-                <img src={a1} className="img-fluid" alt="logo" />
-              </div>
-            </div>
-
-            <div className="col s12 m4">
-              <div className="icon-block">
-                <img src={a1} className="img-fluid" alt="logo" />
-              </div>
-            </div>
-
-            <div className="col s12 m4">
-              <div className="icon-block">
-                <img src={a1} className="img-fluid" alt="logo" />
-              </div>
-            </div>
-
-
-
-
-
-
-
-
           </div>
+
+
+
+
         </div>
 
 
@@ -136,6 +137,17 @@ class App extends Component {
 
                 <div className="row">
                   <div className="col s12 m3"><div className="skill-name right">WordPress</div></div>
+                  <div className="col s12 m9">
+                    <div className="rating">
+                      <div className="skill-box">
+                        <div className="scribble expert50 launch bg-skill"></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div className="row">
+                  <div className="col s12 m3"><div className="skill-name right">ReactJS</div></div>
                   <div className="col s12 m9">
                     <div className="rating">
                       <div className="skill-box">
