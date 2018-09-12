@@ -4,6 +4,15 @@ import a1 from './assets/imagens/a1.jpg';
 import meucondo from './assets/imagens/meucondo.png';
 import telcosms from './assets/imagens/telcosms.png';
 import facom from './assets/imagens/facom.png';
+import drsergio from './assets/imagens/drsergio.png';
+import kikola from './assets/imagens/kikola.png';
+import moonn from './assets/imagens/moonn.png';
+import somultisys from './assets/imagens/somultisys.png';
+import eletrotelesi from './assets/imagens/eletrotelesi.png';
+import onetechys from './assets/imagens/onetechys.png';
+import bizno from './assets/imagens/bizno.png';
+
+
 
 import './App.css';
 
@@ -50,6 +59,66 @@ class App extends Component {
 
               <div className="col s12 m4 no-padding">
                 <div className="icon-block">
+                  <a href="https://drsergioneto.com/" target="_blank" rel="noopener noreferrer">
+                    <figure>
+                      <img src={drsergio} className="responsive-img" alt="logo" />
+                    </figure>
+                  </a>
+                </div>
+              </div>
+
+              <div className="col s12 m4 no-padding">
+                <div className="icon-block">
+                  <a href="https://kikola.co.ao/" target="_blank" rel="noopener noreferrer">
+                    <figure>
+                      <img src={kikola} className="responsive-img" alt="logo" />
+                    </figure>
+                  </a>
+                </div>
+              </div>
+
+              <div className="col s12 m4 no-padding">
+                <div className="icon-block">
+                  <a href="https://bisno.herokuapp.com/" target="_blank" rel="noopener noreferrer">
+                    <figure>
+                      <img src={bizno} className="responsive-img" alt="logo" />
+                    </figure>
+                  </a>
+                </div>
+              </div>
+
+              <div className="col s12 m4 no-padding">
+                <div className="icon-block">
+                  <a href="https://www.somultisys.com/" target="_blank" rel="noopener noreferrer">
+                    <figure>
+                      <img src={somultisys} className="responsive-img" alt="logo" />
+                    </figure>
+                  </a>
+                </div>
+              </div>
+
+              <div className="col s12 m4 no-padding">
+                <div className="icon-block">
+                  <a href="https://moonn.herokuapp.com/" target="_blank" rel="noopener noreferrer">
+                    <figure>
+                      <img src={moonn} className="responsive-img" alt="logo" />
+                    </figure>
+                  </a>
+                </div>
+              </div>
+
+              <div className="col s12 m4 no-padding">
+                <div className="icon-block">
+                  <a href="https://eletrotelesi.herokuapp.com/" target="_blank" rel="noopener noreferrer">
+                    <figure>
+                      <img src={eletrotelesi} className="responsive-img" alt="logo" />
+                    </figure>
+                  </a>
+                </div>
+              </div>
+
+              <div className="col s12 m4 no-padding">
+                <div className="icon-block">
                   <a href="https://fa-com.herokuapp.com/" target="_blank" rel="noopener noreferrer">
                     <figure>
                       <img src={facom} className="responsive-img" alt="logo" />
@@ -58,8 +127,15 @@ class App extends Component {
                 </div>
               </div>
 
-
-
+              <div className="col s12 m4 no-padding">
+                <div className="icon-block">
+                  <a href="http://onetechys.netlify.com/" target="_blank" rel="noopener noreferrer">
+                    <figure>
+                      <img src={onetechys} className="responsive-img" alt="logo" />
+                    </figure>
+                  </a>
+                </div>
+              </div>
 
 
             </div>
