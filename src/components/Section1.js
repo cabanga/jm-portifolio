@@ -7,12 +7,8 @@ import favicon from '../assets/imagens/favicon.png';
 class Section1 extends Component {
   render() {
     return (
-
-
         <section className="height-100">
-
             <div className="row no-margin">
-
                 <div className="col-xs-12 col-md-3 container-s1 height-100">
                   <div className="container">
                     <br />
@@ -21,8 +17,8 @@ class Section1 extends Component {
                   </div>
                 </div>
 
-
                 <div className="col-xs-12 col-md-9 container-s2 height-100">
+                  <br />
                   <nav className="navbar navbar-expand-sm justify-content-center">
                     <ul className="navbar-nav">
                       <li className="nav-item"><a className="nav-link portifolio-nav" href="#">HOME</a></li>
@@ -30,21 +26,9 @@ class Section1 extends Component {
                       <li className="nav-item"><button type="button" className="btn btn-download">Download CV</button></li>
                     </ul>
                   </nav>
-
                 </div>
-
-
-
-
             </div>
-
         </section>
-
-
-
-
-
-
 
     );
   }

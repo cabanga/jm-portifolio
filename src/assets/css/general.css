@@ -52,3 +52,13 @@
 li.nav-item{
   margin-right: 50px;
 }
+
+.container-top-button{
+  margin-top: 5rem!important;
+  margin-bottom: 5rem!important;
+}
+
+.col-img{
+  border: 0.5px solid #6c757d80;
+  padding: 0!important;
+}
