@@ -1,0 +1,54 @@
+.container-section1{
+
+}
+
+.container-s1{
+  background-color: #F9690E;
+}
+
+.container-s2{
+  background-color: #ffffff;
+  border-bottom: 20px solid #F9690E;
+}
+
+.no-margin{
+  margin: 0!important;
+}
+
+.favicon-img{
+  height: 20rem;
+  position: absolute;
+  z-index: 999999;
+  top: 25%;
+}
+
+.module {
+  border: 20px solid #F9690E;
+  background-color: #F9690E;
+  box-shadow: inset 0 0 0 20px #ffffff;
+  padding: 2em;
+}
+
+.portifolio-name{
+  font-size: 2rem;
+  color: #ffffff;
+  position: absolute;
+  left: 30%;
+}
+
+
+.portifolio-nav{
+  font-size: 1rem;
+  color: #F9690E;
+}
+
+.btn-download{
+  background-color: #F9690E;
+  color: #ffffff;
+  padding: 5px 20px !important;
+  border-radius: 50px !important;
+}
+
+li.nav-item{
+  margin-right: 50px;
+}
