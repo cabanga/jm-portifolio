@@ -10,6 +10,7 @@ h5.h4-pd{
 
 div.jumbotron{
   background-color: #202226;
+  border-radius: 0%!important;
 }
 
 .title-1{
@@ -31,7 +32,7 @@ div.jumbotron{
 @media (min-width: 576px){
 
   .jumbotron {
-    padding: 20% 2rem!important;
+    padding: 17% 2rem!important;
   }
 
 }
