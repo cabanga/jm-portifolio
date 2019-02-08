@@ -3,10 +3,35 @@
   padding: 10px 50px!important;
 }
 
+h5.h4-pd{
+  padding: 50px 250px;
+  font-weight: 100;
+}
+
+div.jumbotron{
+  background-color: #202226;
+}
+
+.title-1{
+  color: aliceblue!important;
+  letter-spacing: 6px;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.title-2{
+  color: #999999!important;
+}
+
+.btn-primary {
+  color: #fff!important;
+  background-color: rgb(15, 170, 161)!important;
+  border-color: rgb(15, 170, 161)!important;
+}
+
 @media (min-width: 576px){
 
   .jumbotron {
-    padding: 22% 2rem!important;
+    padding: 20% 2rem!important;
   }
 
 }
