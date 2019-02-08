@@ -1,0 +1,12 @@
+.ButtonCV {
+  border-radius: 50px!important;
+  padding: 10px 50px!important;
+}
+
+@media (min-width: 576px){
+
+  .jumbotron {
+    padding: 22% 2rem!important;
+  }
+
+}

@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import Section1 from './components/Section1';
-import Section2 from './components/Section2';
+import Home from './components/Home';
+
 
 import './App.css';
 
@@ -9,8 +9,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <Section1 />
-        <Section2 />
+        <Home />
 
       </div>
     );
