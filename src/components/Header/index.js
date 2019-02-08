@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
 import { Jumbotron, Button } from 'react-bootstrap';
 
-import './Home.css';
+import './Header.css';
 
 
-class Home extends Component {
+class Header extends Component {
   render() {
     return (
       <Jumbotron>
@@ -23,4 +23,4 @@ class Home extends Component {
   }
 }
 
-export default Home;
+export default Header;
