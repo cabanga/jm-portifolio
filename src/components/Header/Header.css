@@ -20,6 +20,13 @@ div.jumbotron{
   font-family: 'Source Sans Pro', sans-serif;
 }
 
+.title-name{
+  margin-top: 30px;
+  color: #999999!important;
+  letter-spacing: 6px;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
 .title-2{
   color: #999999!important;
 }
@@ -33,7 +40,7 @@ div.jumbotron{
 @media (min-width: 576px){
 
   .jumbotron {
-    padding: 17% 2rem!important;
+    padding: 5% 2rem!important;
   }
 
 }

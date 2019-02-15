@@ -59,3 +59,16 @@ li.nav-item{
   border: 0.5px solid #6c757d80;
   padding: 0!important;
 }
+
+
+.grow { 
+  transition: all .2s ease-in-out;
+  opacity: 0.10;
+}
+
+.grow:hover { 
+  transform: scale(1.1); 
+  z-index: 2;
+  opacity: 1;
+  top: 0;
+}
